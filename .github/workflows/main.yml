@@ -2,7 +2,7 @@ name: Monitor ISP
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # tiap 5 menit
+    - cron: "*/7 * * * *"   # tiap 5 menit
   workflow_dispatch:          # bisa manual trigger
 
 jobs:
